@@ -1,0 +1,25 @@
+
+
+
+案件　
+ソートボタン
+http://127.0.0.1:8000/api/projects/getOpportunities?perPage=10&page=1&freeword=&sort_company=desc&sort_stage=asc&sort_manager=asc
+NPCで検索した状態でソートボタン
+http://127.0.0.1:8000/api/projects/getOpportunities?perPage=10&page=1&freeword=NPC&sort_company=asc&sort_stage=asc&sort_manager=asc
+
+
+架電
+検索　２個でる
+http://127.0.0.1:8000/api/projects/getOpportunities?perPage=10&page=1&freeword=NPC&sort_company=desc&sort_stage=undefined&sort_manager=undefined
+http://127.0.0.1:8000/api/call/getCallList?perPage=10&page=1&freeword=NPC&company_list_type=999
+
+
+　社名ソートボタン
+http://127.0.0.1:8000/api/call/getCallList?perPage=10&page=1&freeword=&company_list_type=999
+NPCで検索した状態でソートボタン
+http://127.0.0.1:8000/api/call/getCallList?perPage=10&page=1&freeword=NPC&company_list_type=999
+
+社名ソートボタン
+http://127.0.0.1:8000/api/projects/getOpportunities?perPage=10&page=1&freeword=&sort_company=asc&sort_stage=undefined&sort_manager=undefined
+
+appointment_user
